@@ -1,8 +1,8 @@
-name: GitHub Actions Build and Deploy Demo
+name: GitHuband Deploy Demo
 on:
   push:
     branches:
-      - master
+      - dev-ops
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
